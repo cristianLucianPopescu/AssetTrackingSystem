@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="TrackMe.Views.AddPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    mc:Ignorable="d">
+    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+        <Grid
+            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+            <StackPanel Margin="50,30,700,10">
+                <TextBox Name="assetName" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Asset Name"/>
+                <TextBox Name="type" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Type"/>
+                <TextBox Name="description" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Description"/>
+                <TextBox Name="model" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Model"/>
+                <TextBox Name="manufacturer" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Manufacturer"/>
+                <TextBox Name="internalID" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Internal ID"/>
+                <TextBox Name="mac" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="MAC"/>
+                <TextBox Name="ip" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="IP"/>
+                <TextBox Name="location" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Physical Location"/>
+                <TextBox Name="purchaseDate" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Purchase Date"/>
+                <TextBox Name="warranty" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Warranty Information"/>
+                <TextBox Name="otherNotes" Text="" Margin="5" TextWrapping="Wrap" PlaceholderText="Other Notes"/>
+                <Button Click="Button_Click_1" Margin="0,10,0,0" HorizontalAlignment="Center" Content="ADD HARDWARE RECORD"/>
+            </StackPanel>
+            <StackPanel Margin="700,50,30,10">
+                <TextBox Name="softwareProductName" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Software Product Name"/>
+                <TextBox Name="type2" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Type"/>
+                <TextBox Name="description2" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Description"/>
+                <TextBox Name="version" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Version"/>
+                <TextBox Name="developer" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Developer"/>
+                <TextBox Name="licenseType" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="License Type"/>
+                <TextBox Name="licenseKey" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="License Key"/>
+                <TextBox Name="purchaseDate2" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Purchase Date"/>
+                <TextBox Name="otherNotes2" Text="" Margin="10" TextWrapping="Wrap" PlaceholderText="Other Notes"/>
+                <Button Click="Button_Click_2" Margin="0,30,0,0" HorizontalAlignment="Center" Content="ADD SOFTWARE RECORD"/>
+            </StackPanel>
+            
+        </Grid>
+    </Grid>
+</Page>
