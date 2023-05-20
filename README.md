@@ -1,5 +1,3 @@
-# project-cristianLucianPopescu  
-project-cristianLucianPopescu created by GitHub Classroom  
 Asset Tracking System is a software that tracks details about any device on a network.  
 The details are from device's name and manufacturer until ip and mac addresses.  
 All these details are stored in a database which can be manipulated by an admin (view, add, edit, delete and back up) through The Asset Tracking System program.  
